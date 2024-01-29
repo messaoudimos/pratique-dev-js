@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(brique.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container{
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url(horloge.png);
+    background-size: cover;
+    position: relative;
+}
+.aiguille{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: bottom;
+    border-radius: 2px;
+}
+
+.hr{
+    width: 6px;
+    height: 50px;
+    background-color:  black;
+
+}
+.min{
+    width: 4px;
+    height: 70px;
+    background-color: green;
+    
+}
+.sec{
+    width: 1px;
+    height: 80px;
+    background-color:  blue;
+    
+}
+
+
+    

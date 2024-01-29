@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+}
+.container{
+    position: absolute;
+    background-color: brown;
+    width: 200px;
+    font-size: 1.5em;
+    height: 300px;
+
+}
+
+p{
+    display: flex;
+    text-align: center;
+    margin: 2px;
+    
+}
+p:hover{
+    color: aliceblue;
+    background-color:black;
+    cursor: pointer;
+    text-align: center;
+}
+button{
+    width: 50px;
+    background-color: brown;
+}
+#close{
+position: absolute;
+left: 200px;
+}
+.hidden{
+    display: none;
+}
